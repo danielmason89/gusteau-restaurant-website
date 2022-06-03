@@ -8,7 +8,7 @@ const Menu = () => {
         <section className="app__specialMenu flex__center section__padding" id="menu">
             <header className="app__specialMenu-title">
                 <SubHeading title="Menu That Fits Your Palette" />
-                <h1 className='headtext__cormorant'>Today's Special</h1>
+                <h1 className='headtext__cormorant'>Today&apos;s Special</h1>
             </header>
             <main className='app__specialMenu-menu'>
                 <div className='app__specialMenu-menu_wine flex__center'>
@@ -18,7 +18,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="app__specialMenu-menu_img">
-                    <img src={images.menu} alt="menu" />
+                    <img src={images.menu} alt="menu__img" />
                 </div>
 
                 <div className='app__specialMenu-menu_cocktails flex__center'>
@@ -29,7 +29,7 @@ const Menu = () => {
                 </div>
 
             </main >
-            <div style={{ marginTop: "15px" }}>
+            <div style={{ marginTop: "15" }}>
                 <button type="button" className='custom__button'>View More</button>
             </div>
         </section>
